@@ -22,6 +22,12 @@ p {
   margin: 0;
 }
 
+h1,
+h2,
+h3 {
+  font-weight: 700;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -39,4 +45,23 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+}
+
+img {
+  inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:focus {
+  outline: 1px solid var(--text-color);
 }
