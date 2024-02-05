@@ -12,6 +12,7 @@
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
+  background-color: var(--bg-color);
 }
 
 .header {
@@ -209,7 +210,7 @@
   min-block-size: 668px;
 }
 
-.footer__title  {
+.footer__title {
   color: var(--main-title-color);
   font-size: var(--title-and-footer-font-size);
   text-shadow: 2px 2px 0 var(--accent-color);
